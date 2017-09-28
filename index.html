@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/weather-icons.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-xs-12 xs-height primary-bg-color">
+        <h1 class="nav-title">Open Weather API</h1>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 main-content secondary-bg-color">
+        <div class="col-xs-12 weather-status flex justify-center align-center">
+          <div class="icon flex flex-column align-center justify-center" id="weatherIcon">
+            <div class="city" id="city"></div>
+          </div>
+        </div>
+        <div class="col-xs-12 weather-data">
+          <div class="co-ordinates weather-data-inner col-xs-12">
+            <h1 class="weather-data-text text-center" >Co-Ordinates</h1>
+            <div class=" flex justify-center align-center">
+              <div id="coOrdinates" class="text-center weather-data-text"></div>
+            </div>
+          </div>
+          <div class="temp weather-data-inner col-xs-12">
+            <h1 class="weather-data-text text-center">Temperature</h1>
+            <div class=" flex justify-center align-center">
+              <div id="temperature" class="text-center weather-data-text"></div>
+            </div>
+          </div>
+          <div class="wind weather-data-inner col-xs-12">
+            <h1 class="weather-data-text text-center weather-data-text">Wind</h1>
+            <div class=" flex justify-center align-center">
+              <div id="wind" class="text-center weather-data-text"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-xs-6 xs-height primary-bg-color"></div>
+      <div class="col-xs-6 xs-height primary-bg-color">
+        <h6 class="copy">&copy; Alter Ego Designs</h6>
+      </div>
+    </div>
+  </div>
+
+  <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/jquery.js"></script>
+  <script src="js/styles.js"></script>
+</body>
+</html>

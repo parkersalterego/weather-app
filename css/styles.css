@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css?family=Rubik");
+.nav-title {
+  color: #fff;
+  float: left;
+  font-family: 'rubik', sans-serif;
+  font-size: 20px;
+  padding: 0;
+  margin-top: 15px; }
+
+.main-content {
+  height: calc(100vh - 100px);
+  padding: 0; }
+
+.weather-status {
+  background-image: url(../img/fresno-skyline.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 50%;
+  padding: 0; }
+
+.city {
+  font-size: 40px;
+  color: #fff; }
+
+.icon {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(67, 67, 67, 0.6); }
+
+.weather-icon {
+  transform: scale(1.5); }
+
+.current-status {
+  color: #fff;
+  font-size: 30px;
+  font-family: 'rubik', sans-serif; }
+
+.weather-data {
+  background: linear-gradient(to bottom, #414345, #232526);
+  height: 50%;
+  padding: 0; }
+
+.weather-data-inner {
+  height: calc(100%/3);
+  border-top: 3px solid #000; }
+
+.weather-data-text {
+  color: #fff;
+  font-size: 16px;
+  font-family: 'rubik', sans-serif;
+  margin: 10px 0px 10px 0px;
+  padding: 0; }
+
+.copy {
+  float: right;
+  color: white;
+  font-family: 'rubik', sans-serif;
+  font-size: 12px;
+  margin-top: 23px;
+  padding: 0; }
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  background: linear-gradient(to bottom, #3a6186, #89253e); }
+
+.primary-color {
+  color: #000000; }
+
+.secondary-color {
+  color: #fff; }
+
+.primary-bg-color {
+  background-color: #000000; }
+
+.secondary-bg-color {
+  background-color: #fff; }
+
+.xs-height {
+  height: 50px; }
+
+.sm-height {
+  height: 100px; }
+
+.md-height {
+  height: 150px; }
+
+.lg-height {
+  height: 250px; }
+
+.xl-height {
+  height: 500px; }
+
+.full-vh {
+  height: 100vh; }
+
+.pink-floyd {
+  font-family: 'pink-floyd', 'cursive'; }
+
+.xs-font {
+  font-size: 0.5em; }
+
+.sm-font {
+  font-size: 1em; }
+
+.md-font {
+  font-size: 1.25em; }
+
+.lg-font {
+  font-size: 1.5em; }
+
+.xl-font {
+  font-size: 2em; }
+
+.xxl-font {
+  font-size: 3em; }
+
+.display-block {
+  display: block; }
+
+.display-inline-block {
+  display: inline-block; }
+
+.display-none {
+  display: none; }
+
+.margin-null {
+  margin: 0; }
+
+.padding-null {
+  padding: 0; }
+
+.fill {
+  height: 100%;
+  width: 100%; }
+
+.flex {
+  display: flex; }
+
+.flex-row {
+  flex-direction: row; }
+
+.flex-column {
+  flex-direction: column; }
+
+.justify-start {
+  justify-content: flex-start; }
+
+.justify-end {
+  justify-content: flex-end; }
+
+.justify-center {
+  justify-content: center; }
+
+.justify-space-around {
+  justify-content: space-around; }
+
+.justify-space-between {
+  justify-content: space-between; }
+
+.align-start {
+  align-items: flex-start; }
+
+.align-end {
+  align-items: flex-end; }
+
+.align-center {
+  align-items: center; }
+
+.align-space-around {
+  align-items: space-around; }
+
+.align-space-between {
+  align-items: space-between; }
+
+.position-relative {
+  position: relative; }
+
+.position-fixed {
+  position: fixed; }
+
+.position-absolute {
+  position: absolute; }
+
+.top-0 {
+  top: 0px; }
+
+.bottom-0 {
+  bottom: 0px; }
+
+.left-0 {
+  left: 0px; }
+
+.right-0 {
+  right: 0px; }
+
+.img-fill {
+  background-size: cover;
+  background-position: center; }
+
+.attatchment-fixed {
+  background-attachment: fixed; }
+
+.hidden {
+  visibility: hidden; }
+
+/*# sourceMappingURL=styles.css.map */
